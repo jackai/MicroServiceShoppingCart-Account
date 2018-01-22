@@ -1,0 +1,7 @@
+/vendor/
+/.env
+/bootstrap/
+/storage/
+/report/
+/node_modules
+/jsdoc
