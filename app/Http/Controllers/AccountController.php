@@ -38,7 +38,7 @@ class AccountController extends Controller
     {
         $isRegist = \App\Account::where('email',$request->email)->count();
         if($isRegist>0){
-            return response()->json(["status"=>0,"message"=>"has regist"]);
+            // return response()->json(["status"=>0,"message"=>"has regist"]);
         }
         $account = new Account;
         $account->name = $request->name;
